@@ -2,9 +2,9 @@ public class Revista extends Material {
     private int edicion;
     private String tematica;
 
-    public Revista(String codigo, String titulo, int anio, boolean disponible,
+    public Revista(String codigo, String titulo, int año, boolean disponible,
                    int edicion, String tematica) {
-        super(codigo, titulo, anio, disponible);
+        super(codigo, titulo, año, disponible);
         this.edicion = edicion;
         this.tematica = tematica;
     }
